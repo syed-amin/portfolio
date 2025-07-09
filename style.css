@@ -188,3 +188,28 @@ main section{
     margin-top: 50px;
 }
 
+/* footer style */
+
+footer{
+    padding: 130px 230px ;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-coloumn{
+    width: 50%;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer input[type="textarea"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 246);
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
